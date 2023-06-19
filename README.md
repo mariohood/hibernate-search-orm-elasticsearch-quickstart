@@ -1,4 +1,5 @@
 # hibernate-search-orm-elasticsearch-quickstart
+# Mario Ibanez
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
