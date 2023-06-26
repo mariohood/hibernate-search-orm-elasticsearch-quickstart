@@ -121,6 +121,16 @@
           </execution>
         </executions>
       </plugin>
+      <plugin>
+<groupId>org.apache.maven.plugins</groupId>
+<artifactId>maven-pmd-plugin</artifactId>
+<version>3.21.0</version>
+<configuration>
+    <rulesets>
+        <ruleset>https://raw.githubusercontent.com/rodrigoprestesmachado/tpack/master/pmd.xml</ruleset>
+    </rulesets>
+</configuration>
+</plugin>
     </plugins>
   </build>
   <profiles>
